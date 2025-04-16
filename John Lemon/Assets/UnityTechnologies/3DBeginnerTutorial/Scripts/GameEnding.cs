@@ -12,6 +12,7 @@ public class GameEnding : MonoBehaviour
     public AudioSource exitAudio;
     public CanvasGroup caughtBackgroundImageCanvasGroup;
     public AudioSource caughtAudio;
+    public Timer gameTimer;
 
     bool m_IsPlayerAtExit;
     bool m_IsPlayerCaught;
@@ -35,11 +36,13 @@ public class GameEnding : MonoBehaviour
     {
         if(m_IsPlayerAtExit)
         {
+            gameTimer.stopTimer();
             EndLevel(exitBackgroundImageCanvasGroup, false, exitAudio);
         }
 
-        else if(m_IsPlayerCaught)
+        else if (m_IsPlayerCaught || gameTimer.TimeLeft == 0)
         {
+            gameTimer.stopTimer();
             EndLevel(caughtBackgroundImageCanvasGroup, true, caughtAudio);
         }
     }
