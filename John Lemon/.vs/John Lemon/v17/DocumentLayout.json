@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "D:\\Learning Folder\\GitHub\\John-Lemon\\John Lemon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E5DBD6E-97EF-125B-B441-C4962E151C90}|Assembly-CSharp.csproj|d:\\learning folder\\github\\john-lemon\\john lemon\\assets\\unitytechnologies\\3dbeginnertutorial\\scripts\\gameending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E5DBD6E-97EF-125B-B441-C4962E151C90}|Assembly-CSharp.csproj|d:\\learning folder\\github\\john-lemon\\john lemon\\assets\\unitytechnologies\\3dbeginnertutorial\\scripts\\destroytimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5DBD6E-97EF-125B-B441-C4962E151C90}|Assembly-CSharp.csproj|solutionrelative:assets\\unitytechnologies\\3dbeginnertutorial\\scripts\\destroytimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5DBD6E-97EF-125B-B441-C4962E151C90}|Assembly-CSharp.csproj|d:\\learning folder\\github\\john-lemon\\john lemon\\assets\\unitytechnologies\\3dbeginnertutorial\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5DBD6E-97EF-125B-B441-C4962E151C90}|Assembly-CSharp.csproj|solutionrelative:assets\\unitytechnologies\\3dbeginnertutorial\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5DBD6E-97EF-125B-B441-C4962E151C90}|Assembly-CSharp.csproj|D:\\Learning Folder\\GitHub\\John-Lemon\\John Lemon\\assets\\unitytechnologies\\3dbeginnertutorial\\scripts\\gameending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E5DBD6E-97EF-125B-B441-C4962E151C90}|Assembly-CSharp.csproj|solutionrelative:assets\\unitytechnologies\\3dbeginnertutorial\\scripts\\gameending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E5DBD6E-97EF-125B-B441-C4962E151C90}|Assembly-CSharp.csproj|d:\\learning folder\\github\\john-lemon\\john lemon\\assets\\unitytechnologies\\3dbeginnertutorial\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E5DBD6E-97EF-125B-B441-C4962E151C90}|Assembly-CSharp.csproj|D:\\Learning Folder\\GitHub\\John-Lemon\\John Lemon\\assets\\unitytechnologies\\3dbeginnertutorial\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E5DBD6E-97EF-125B-B441-C4962E151C90}|Assembly-CSharp.csproj|solutionrelative:assets\\unitytechnologies\\3dbeginnertutorial\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,11 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DestroyTimer.cs",
+              "DocumentMoniker": "D:\\Learning Folder\\GitHub\\John-Lemon\\John Lemon\\Assets\\UnityTechnologies\\3DBeginnerTutorial\\Scripts\\DestroyTimer.cs",
+              "RelativeDocumentMoniker": "Assets\\UnityTechnologies\\3DBeginnerTutorial\\Scripts\\DestroyTimer.cs",
+              "ToolTip": "D:\\Learning Folder\\GitHub\\John-Lemon\\John Lemon\\Assets\\UnityTechnologies\\3DBeginnerTutorial\\Scripts\\DestroyTimer.cs",
+              "RelativeToolTip": "Assets\\UnityTechnologies\\3DBeginnerTutorial\\Scripts\\DestroyTimer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:54:11.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "D:\\Learning Folder\\GitHub\\John-Lemon\\John Lemon\\Assets\\UnityTechnologies\\3DBeginnerTutorial\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\UnityTechnologies\\3DBeginnerTutorial\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "D:\\Learning Folder\\GitHub\\John-Lemon\\John Lemon\\Assets\\UnityTechnologies\\3DBeginnerTutorial\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\UnityTechnologies\\3DBeginnerTutorial\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:52:10.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Timer.cs",
               "DocumentMoniker": "D:\\Learning Folder\\GitHub\\John-Lemon\\John Lemon\\Assets\\UnityTechnologies\\3DBeginnerTutorial\\Scripts\\Timer.cs",
               "RelativeDocumentMoniker": "Assets\\UnityTechnologies\\3DBeginnerTutorial\\Scripts\\Timer.cs",
@@ -30,12 +64,11 @@
               "RelativeToolTip": "Assets\\UnityTechnologies\\3DBeginnerTutorial\\Scripts\\Timer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T06:00:14.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T06:00:14.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GameEnding.cs",
               "DocumentMoniker": "D:\\Learning Folder\\GitHub\\John-Lemon\\John Lemon\\Assets\\UnityTechnologies\\3DBeginnerTutorial\\Scripts\\GameEnding.cs",
               "RelativeDocumentMoniker": "Assets\\UnityTechnologies\\3DBeginnerTutorial\\Scripts\\GameEnding.cs",
@@ -43,8 +76,7 @@
               "RelativeToolTip": "Assets\\UnityTechnologies\\3DBeginnerTutorial\\Scripts\\GameEnding.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T02:45:15.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T02:45:15.855Z"
             }
           ]
         }
