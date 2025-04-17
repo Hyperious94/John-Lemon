@@ -5,6 +5,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float turnSpeed = 20f;
+    private float speed = 3f;
+    public float walkSpeed = 3f;
+    public float runSpeed =6f;
     Animator m_Animator;
     Rigidbody m_Rigidbody;
     AudioSource m_AudioSource;
@@ -43,7 +46,18 @@ public class PlayerMovement : MonoBehaviour
             m_AudioSource.Stop();
         }
 
+        if(Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            speed = runSpeed;
+        }
+        else
+        {
+            speed = walkSpeed;
+        }
+
         Vector3 desiredForward = Vector3.RotateTowards(transform.forward, m_Movement, turnSpeed * Time.deltaTime, 0f);
+        Vector3 movement = new Vector3 (horizontal, 0f, vertical);
+        m_Rigidbody.AddForce(movement * speed);
         m_Rotation = Quaternion.LookRotation(desiredForward);
     }
 
